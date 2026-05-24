@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+﻿import Container from "../components/Container";
 
 const Newsletter = () => {
   return (
@@ -9,7 +9,7 @@ const Newsletter = () => {
         <div className="max-w-3xl mx-auto text-center">
 
           <h2 className="text-5xl font-bold mb-6">
-            Join Our Newsletter
+            Get Exclusive Deals & Discounts
           </h2>
 
           <p className="text-slate-400 mb-8">
@@ -39,3 +39,4 @@ const Newsletter = () => {
 };
 
 export default Newsletter;
+

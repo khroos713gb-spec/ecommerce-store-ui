@@ -1,4 +1,6 @@
+import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
+import TrustBar from "./sections/TrustBar";
 import Categories from "./sections/Categories";
 import Products from "./sections/Products";
 import Cart from "./sections/Cart";
@@ -9,7 +11,9 @@ import Footer from "./sections/Footer";
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
+      <TrustBar />
       <Categories />
       <Products />
       <Cart />

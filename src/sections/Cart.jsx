@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+﻿import Container from "../components/Container";
 
 const Cart = () => {
   return (
@@ -9,7 +9,7 @@ const Cart = () => {
         <div className="max-w-4xl mx-auto bg-slate-900 border border-slate-800 rounded-3xl p-8">
 
           <h2 className="text-4xl font-bold mb-8">
-            Shopping Cart
+            Your Premium Cart
           </h2>
 
           <div className="space-y-6">
@@ -34,7 +34,7 @@ const Cart = () => {
 
           </div>
 
-          <div className="flex justify-between mt-8 text-2xl font-bold">
+          <div className="flex justify-between text-green-500 mb-4"><span>You Saved</span><span>$32</span></div><div className="flex justify-between mt-8 text-2xl font-bold">
             <span>Total</span>
             <span>$238</span>
           </div>
@@ -52,3 +52,5 @@ const Cart = () => {
 };
 
 export default Cart;
+
+

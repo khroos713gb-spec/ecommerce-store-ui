@@ -1,4 +1,5 @@
-import Container from "../components/Container";
+﻿import Container from "../components/Container";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,6 +18,28 @@ const Footer = () => {
             <a href="#">Products</a>
             <a href="#">Categories</a>
             <a href="#">Contact</a>
+          </div>
+
+          <div className="flex gap-4">
+
+            <a
+              href="https://github.com/khroos713gb-spec"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-xl bg-white/5 hover:bg-orange-500 hover:text-black transition-all"
+            >
+              <FaGithub size={22} />
+            </a>
+
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-xl bg-white/5 hover:bg-orange-500 hover:text-black transition-all"
+            >
+              <FaLinkedin size={22} />
+            </a>
+
           </div>
 
         </div>
